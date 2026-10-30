@@ -34,6 +34,9 @@ public class Laboratorio {
                 System.out.println("3. Hacer DAB");
                 System.out.println("4. Hacer un BottleFLip");
                 System.out.println("5. Hacer un Baile de Fornite");
+                System.out.println("6. Ghostear");
+                System.out.print("7. Sacar un Peluche de Sonic");
+                System.out.print("8. Decir Skibidi Toilet");
                 System.out.print("Selecciona una opcion: ");
                 int subOpcion = sc.nextInt();
 
@@ -52,6 +55,15 @@ public class Laboratorio {
                 } else if (subOpcion == 5) {
                     System.out.println("Baile de fornite, te vas pal lobby");
                     puntosCringe = puntosCringe + 25;
+                } else if (subOpcion == 6) {
+                    System.out.println("Noooo pará que el fastasmometro se me dispara");
+                    puntosCringe = puntosCringe + 10;
+                } else if (subOpcion == 7) {
+                    System.out.println("Aprobado por la Comunidad TEA");
+                    puntosCringe = puntosCringe + 17;
+                } else if (subOpcion == 8) {
+                    System.out.println("Necesitas un abrazo");
+                    puntosCringe = puntosCringe + 17;
                 } else {
                     System.out.println("No mi pana opcion invalida.");
                 }
@@ -74,9 +86,9 @@ public class Laboratorio {
             if (puntosCringe >= 167){
                 System.out.println("¡Felicidades! Has sido el que mas aura lleva y has ganado el torneo.");
             }else{
-                System.out.println(" Te falto aura bro. Has perdido el torneo. "):
+                System.out.println(" Te falto aura bro. Has perdido el torneo. ");;
             }
-            
+
         }
 
         sc.close();
