@@ -31,6 +31,8 @@ public class Laboratorio {
                 System.out.println("\n--- Movimientos Comunes ---");
                 System.out.println("1. Hacer Mewing");
                 System.out.println("2. Hacer el 67");
+                System.out.println("3. Hacer DAB");
+                System.out.println("4. Hacer un BottleFLip");
                 System.out.print("Selecciona una opcion: ");
                 int subOpcion = sc.nextInt();
 
@@ -40,6 +42,12 @@ public class Laboratorio {
                 } else if (subOpcion == 2) {
                     System.out.println("OHHH Hiciste el 67.");
                     puntosCringe = puntosCringe + 25;
+                } else if (subOpcion == 3) {
+                    System.out.println("Un DAB??? EN 2026??.");
+                    puntosCringe = puntosCringe + 16;
+                } else if (subOpcion == 4) {
+                    System.out.println("BottleFlip, fernanfloo estaria orgulloso.");
+                    puntosCringe = puntosCringe + 20;
                 } else {
                     System.out.println("No mi pana opcion invalida.");
                 }
@@ -61,5 +69,4 @@ public class Laboratorio {
 
         sc.close();
     }
-}
 }
