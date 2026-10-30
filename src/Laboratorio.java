@@ -66,9 +66,17 @@ public class Laboratorio {
                 System.out.println("¡Haz creado un nuevo movimiento!");
             } else if (opcion == 3) {
                 System.out.println("Finalizando...");
-            } else {
-                System.out.println("Opcion no valida, reintente.");
             }
+            System.out.println("  Resultados del torneo de aura  ");
+            System.out.println(" Participantes: " +nombre);
+            System.out.println(" Puntos de cringe totales: " + puntosCringe);
+
+            if (puntosCringe >= 167){
+                System.out.println("¡Felicidades! Has sido el que mas aura lleva y has ganado el torneo.");
+            }else{
+                System.out.println(" Te falto aura bro. Has perdido el torneo. "):
+            }
+            
         }
 
         sc.close();
