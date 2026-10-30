@@ -51,7 +51,7 @@ public class Laboratorio {
 
                 int puntosAleatorios = rnd.nextInt(50);
                 puntosCringe += puntos aleatorios;
-                System.out.println("¡Haz creado un nuevo moviento!");
+                System.out.println("¡Haz creado un nuevo movimiento!");
             } else if (opcion == 3) {
                 System.out.println("Finalizando...");
             } else {
