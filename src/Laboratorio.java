@@ -35,8 +35,8 @@ public class Laboratorio {
                 System.out.println("4. Hacer un BottleFLip");
                 System.out.println("5. Hacer un Baile de Fornite");
                 System.out.println("6. Te Proyectas");
-                System.out.print("7. Sacar un Peluche de Sonic");
-                System.out.print("8. Decir Skibidi Toilet");
+                System.out.println("7. Sacar un Peluche de Sonic");
+                System.out.println("8. Decir Skibidi Toilet");
                 System.out.print("Selecciona una opcion: ");
                 int subOpcion = sc.nextInt();
 
