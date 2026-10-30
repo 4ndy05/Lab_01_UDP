@@ -62,7 +62,7 @@ public class Laboratorio {
                 String movimientoPropio = sc.nextLine();
 
                 int puntosAleatorios = rnd.nextInt(50);
-                puntosCringe += puntos aleatorios;
+                puntosCringe += puntosAleatorios;
                 System.out.println("¡Haz creado un nuevo movimiento!");
             } else if (opcion == 3) {
                 System.out.println("Finalizando...");
