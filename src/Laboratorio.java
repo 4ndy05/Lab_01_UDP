@@ -33,6 +33,7 @@ public class Laboratorio {
                 System.out.println("2. Hacer el 67");
                 System.out.println("3. Hacer DAB");
                 System.out.println("4. Hacer un BottleFLip");
+                System.out.println("5. Hacer un Baile de Fornite");
                 System.out.print("Selecciona una opcion: ");
                 int subOpcion = sc.nextInt();
 
@@ -41,13 +42,16 @@ public class Laboratorio {
                     puntosCringe = puntosCringe + 15;
                 } else if (subOpcion == 2) {
                     System.out.println("OHHH Hiciste el 67.");
-                    puntosCringe = puntosCringe + 25;
+                    puntosCringe = puntosCringe + 7;
                 } else if (subOpcion == 3) {
                     System.out.println("Un DAB??? EN 2026??.");
                     puntosCringe = puntosCringe + 16;
                 } else if (subOpcion == 4) {
                     System.out.println("BottleFlip, fernanfloo estaria orgulloso.");
                     puntosCringe = puntosCringe + 20;
+                } else if (subOpcion == 5) {
+                    System.out.println("Baile de fornite, te vas pal lobby");
+                    puntosCringe = puntosCringe + 25;
                 } else {
                     System.out.println("No mi pana opcion invalida.");
                 }
