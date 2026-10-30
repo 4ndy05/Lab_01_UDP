@@ -69,8 +69,8 @@ public class Laboratorio {
                 }
 
             } else if (opcion == 2) {
-                sc.nextLine();
-                System.out.println("Ingresa tu propio movimiento: ");
+                sc.nextLine(); // Limpiar buffer
+                System.out.print("Ingresa tu propio movimiento: ");
                 String movimientoPropio = sc.nextLine();
 
                 int puntosAleatorios = rnd.nextInt(50);
@@ -78,17 +78,20 @@ public class Laboratorio {
                 System.out.println("¡Haz creado un nuevo movimiento!");
             } else if (opcion == 3) {
                 System.out.println("Finalizando...");
+            } else {
+                System.out.println("Opcion no valida, reintente.");
             }
-            System.out.println("  Resultados del torneo de aura  ");
-            System.out.println(" Participantes: " +nombre);
-            System.out.println(" Puntos de cringe totales: " + puntosCringe);
+        } // Aca termina el ciclo while
 
-            if (puntosCringe >= 167){
-                System.out.println("¡Felicidades! Has sido el que mas aura lleva y has ganado el torneo.");
-            }else{
-                System.out.println(" Te falto aura bro. Has perdido el torneo. ");;
-            }
+        // Los resultados se muestran AFUERA del ciclo al terminar el torneo
+        System.out.println("\n  Resultados del torneo de aura  ");
+        System.out.println(" Participantes: " + nombre);
+        System.out.println(" Puntos de cringe totales: " + puntosCringe);
 
+        if (puntosCringe >= 167) {
+            System.out.println("¡Felicidades! Has sido el que mas aura lleva y has ganado el torneo.");
+        } else {
+            System.out.println(" Te falto aura bro. Has perdido el torneo. ");
         }
 
         sc.close();
