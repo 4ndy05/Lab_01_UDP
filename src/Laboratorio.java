@@ -45,7 +45,13 @@ public class Laboratorio {
                 }
 
             } else if (opcion == 2) {
-                System.out.println("[Pendiente: movimiento nuevo]");
+                sc.nextLine();
+                System.out.println("Ingresa tu propio movimiento: ");
+                String movimientoPropio = sc.nextLine();
+
+                int puntosAleatorios = rnd.nextInt(50);
+                puntosCringe += puntos aleatorios;
+                System.out.println("¡Haz creado un nuevo moviento!");
             } else if (opcion == 3) {
                 System.out.println("Finalizando...");
             } else {
