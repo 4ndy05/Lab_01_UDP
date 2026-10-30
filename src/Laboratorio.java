@@ -16,7 +16,7 @@ public class Laboratorio {
         Random rnd = new Random();
 
         // Pedir el nombre del participante
-        System.out.print("Ingrese el nombre del participante: ");
+        System.out.print("Ingrese su nombre: ");
         String nombre = sc.nextLine();
 
         int puntosCringe = 0; // Acumulador de puntos ocultos
@@ -28,13 +28,26 @@ public class Laboratorio {
             opcion = sc.nextInt();
 
             if (opcion == 1) {
-                // Aqui iran los 5 movimientos predefinidos
-                System.out.println("[Proximamente: Lista de 5 movimientos]");
+                System.out.println("\n--- Movimientos Comunes ---");
+                System.out.println("1. Hacer Mewing");
+                System.out.println("2. Hacer el 67");
+                System.out.print("Selecciona una opcion: ");
+                int subOpcion = sc.nextInt();
+
+                if (subOpcion == 1) {
+                    System.out.println("Hiciste un Mewing!!!.");
+                    puntosCringe = puntosCringe + 15;
+                } else if (subOpcion == 2) {
+                    System.out.println("OHHH Hiciste el 67.");
+                    puntosCringe = puntosCringe + 25;
+                } else {
+                    System.out.println("No mi pana opcion invalida.");
+                }
+
             } else if (opcion == 2) {
-                // Aqui ira el movimiento personalizado con Random
-                System.out.println("[Proximamente: Movimiento nuevo]");
+                System.out.println("[Pendiente: movimiento nuevo]");
             } else if (opcion == 3) {
-                System.out.println("Finalizando torneo...");
+                System.out.println("Finalizando...");
             } else {
                 System.out.println("Opcion no valida, reintente.");
             }
@@ -42,4 +55,5 @@ public class Laboratorio {
 
         sc.close();
     }
+}
 }
