@@ -28,13 +28,13 @@ public class Laboratorio {
             opcion = sc.nextInt();
 
             if (opcion == 1) {
-                System.out.println("\n--- Movimientos Comunes ---");
+                System.out.println("\n--- Pro tips ---");
                 System.out.println("1. Hacer Mewing");
                 System.out.println("2. Hacer el 67");
                 System.out.println("3. Hacer DAB");
                 System.out.println("4. Hacer un BottleFLip");
                 System.out.println("5. Hacer un Baile de Fornite");
-                System.out.println("6. Ghostear");
+                System.out.println("6. Te Proyectas");
                 System.out.print("7. Sacar un Peluche de Sonic");
                 System.out.print("8. Decir Skibidi Toilet");
                 System.out.print("Selecciona una opcion: ");
@@ -56,8 +56,8 @@ public class Laboratorio {
                     System.out.println("Baile de fornite, te vas pal lobby");
                     puntosCringe = puntosCringe + 25;
                 } else if (subOpcion == 6) {
-                    System.out.println("Noooo pará que el fastasmometro se me dispara");
-                    puntosCringe = puntosCringe + 10;
+                    System.out.println("ay ay ay miren como me proyecto *c inserta un hdmi");
+                    puntosCringe = puntosCringe + 30;
                 } else if (subOpcion == 7) {
                     System.out.println("Aprobado por la Comunidad TEA");
                     puntosCringe = puntosCringe + 17;
